@@ -1,0 +1,38 @@
+#kezeloContainer {
+	position:relative;
+	margin:auto;
+	background-image:url('../img/felhBg.png');
+	width:800px;
+	display:table;
+}
+
+#baloldal {
+	position:relative;
+	display:table-row;
+	margin-left:3px;
+	
+	width:200px;
+	float:left;
+	
+	text-align:left;
+}
+
+#jobboldal {
+	position:relative;
+	
+	width:597px;
+	float:left;
+	text-align:left;
+}
+
+.kezeloA {
+	font-family: "Freeroad";
+	color: #000;
+	text-decoration: none;
+	text-align:left;
+	cursor:pointer;
+	
+	padding:0px;
+	margin:0px;
+
+}

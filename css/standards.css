@@ -1,0 +1,443 @@
+#HEADER {
+	position:relative;
+	
+	background-image:url('../img/newMenu.png') ;
+	background-position:center top;
+	background-repeat:repeat;
+	
+	width:100%;
+	height:45px;
+}
+
+#menuContainer {
+	position:relative;
+	top:0px;
+	
+	margin: 0 auto;
+	
+	height:45px;
+	width:800px;
+}
+
+#MenuPubSelector {
+	position:relative;
+	float:right;
+	
+	height:45px;
+}
+
+#MenuFooldal {
+	position:relative;
+	margin-left:0px;
+	top:1px;
+	float:left;
+	
+	cursor:pointer;
+	
+	background-image:url('../img/indexBut.png');
+	background-repeat:no-repeat;
+	
+	width:35px;
+	height:35px;
+	
+}
+
+#MenuStand {
+	position:relative;
+	margin-left:10px;
+	top:1px;
+	float:left;
+	
+	cursor:pointer;
+	
+	background-image:url('../img/newAdd.png');
+	background-repeat:no-repeat;
+	
+	width:35px;
+	height:35px;
+	
+}
+
+#MenuBirthday {
+	position:relative;
+	margin-left:10px;
+	top:1px;
+	float:left;
+	
+	cursor:pointer;
+	
+	background-image:url('../img/newBirthday.png');
+	background-repeat:no-repeat;
+	
+	width:35px;
+	height:35px;
+	
+}
+
+#MenuSearch {
+	position:relative;
+	margin-left:10px;
+	top:1px;
+	float:left;
+	
+	cursor:pointer;
+	
+	background-image:url('../img/newSearch.png');
+	background-repeat:no-repeat;
+	
+	width:35px;
+	height:35px;
+	
+}
+
+#MenuFelh {
+	position:relative;
+	margin-left:10px;
+	top:1px;
+	float:left;
+	
+	cursor:pointer;
+	
+	background-image:url('../img/newFelh.png');
+	background-repeat:no-repeat;
+	
+	width:35px;
+	height:35px;
+	
+}
+
+#MenuItal {
+	position:relative;
+	margin-left:10px;
+	top:1px;
+	float:left;
+	
+	cursor:pointer;
+	
+	background-image:url('../img/newItallap.png');
+	background-repeat:no-repeat;
+	
+	width:35px;
+	height:35px;
+	
+}
+
+#MenuKocsma {
+	position:relative;
+	margin-left:10px;
+	top:1px;
+	float:left;
+	
+	cursor:pointer;
+	
+	background-image:url('../img/newKocs.png');
+	background-repeat:no-repeat;
+	
+	width:35px;
+	height:35px;
+	
+}
+
+#MenuKocsmaBeall {
+	position:relative;
+	margin-left:10px;
+	top:1px;
+	float:left;
+	
+	cursor:pointer;
+	
+	background-image:url('../img/newPubSettings.png');
+	background-repeat:no-repeat;
+	
+	width:35px;
+	height:35px;
+	
+}
+
+#MenuSorsjegy {
+	position:relative;
+	margin-left:10px;
+	top:1px;
+	float:left;
+	
+	cursor:pointer;
+	
+	background-image:url('../img/newSorsjegyIcon.png');
+	background-repeat:no-repeat;
+	
+	width:35px;
+	height:35px;
+}
+
+#MenuStat {
+	position:relative;
+	margin-left:10px;
+	top:1px;
+	float:left;
+	
+	cursor:pointer;
+	
+	background-image:url('../img/newStat.png');
+	background-repeat:no-repeat;
+	
+	width:35px;
+	height:35px;
+	
+}
+
+#MenuUp {
+
+	position:relative;
+	margin-left:10px;
+	top:1px;
+	float:left;
+	
+	cursor:pointer;
+	
+	background-image:url('../img/newUp.png');
+	background-repeat:no-repeat;
+	
+	width:35px;
+	height:35px;
+	
+}
+
+#MenuSettings {
+	position:relative;
+	margin-left:10px;
+	top:1px;
+	float:left;
+	
+	cursor:pointer;
+	
+	background-image:url('../img/newSettings.png');
+	background-repeat:no-repeat;
+	
+	width:35px;
+	height:35px;
+	
+}
+
+#MenuLogout {
+	position:relative;
+	margin-left:10px;
+	top:1px;
+	float:left;
+	
+	cursor:pointer;
+	
+	background-image:url('../img/newOut.png');
+	background-repeat:no-repeat;
+	
+	width:35px;
+	height:35px;
+	
+}
+
+a.anchor {
+	font-family: "Freeroad";
+	color: #fff;
+	text-decoration: none;
+}
+
+.anchor2 {
+	font-family: "Freeroad";
+	color: #000;
+	text-decoration: none;
+	padding:0px;
+	margin:0px;
+}
+
+.anchor3 {
+	font-family: "Freeroad";
+	color: #fff;
+	text-decoration: none;
+	font-size:100px;
+}
+
+.signo {
+	background-image:url('../img/signo.png'), url('../img/bg.png');
+	background-repeat:no-repeat, repeat;
+	background-attachment:fixed, fixed;
+	background-position:right bottom, left top; 
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:0px;
+}
+
+#content {
+	text-align:center;
+	width: 100%;
+	margin-top:50px;
+	position:absolute;
+	z-index: 0;
+}
+
+.welcome {
+	font-family: "Freeroad";
+	font-size:25px;
+	text-shadow: 3px 3px #CCC;
+	margin:0px;
+	padding:0px;
+}
+
+table {
+	margin:auto;
+}
+
+hr {
+	color:gray;
+	background-color:gray;
+	width:50%;
+	height:1px;
+	border:0px;
+}
+
+#toTop {
+	position:fixed;
+	width:50px;
+	height:50px;
+	background-image:url('../img/toTop.png');
+	left: 10px;
+	bottom: 10px;
+	cursor:pointer;
+}
+
+.notyContainer {
+	position:relative;
+	width:500px;
+	margin:0 auto;
+}
+
+.notyTop {
+	position:relative;
+	width:500px;
+	height:20px;
+	background-image:url('../img/notyTop.png');
+	background-repeat:no-repeat;
+}
+
+.notyBody {
+	position:relative;
+	padding-left:10px;
+	padding-right:10px;
+	width:480px;
+	color:#fff;
+	background-color:#000;
+	text-align: justify;
+}
+
+.notyVersion {
+	font-family: "Freeroad";
+	color: #fff;
+	font-size:15px;
+	text-decoration:underline;
+}
+
+.notyText {
+	font-family: "Freeroad";
+	color: #fff;
+	font-size:15px;
+}
+
+.notyBot {
+	positon:relative;
+	width:500px;
+	height:20px;
+	background-image:url('../img/notyBot.png');
+	background-repeat:no-repeat;
+}
+
+.statContainer {
+	position:relative;
+	width:900px;
+	height:330px;
+	margin: 0 auto;
+	
+}
+
+.leftCanvasC {
+	position:relative;
+	float:left;
+	width:400px;
+	height:330px;
+	padding-top:30px;
+	
+}
+
+.rightCanvasC {
+	position:relative;
+	float:right;
+	width:400px;
+	height:330px;
+	padding-top:30px;
+	
+}
+
+.rightchartlabel {
+	position:absolute;
+	text-align:center;
+	width:400px;
+	top:0px;
+}
+
+.leftchartlabel {
+	position:absolute;
+	text-align:center;
+	width:400px;
+	top:0px;
+}
+
+.dashbutton {
+	width:25px;
+	height:25px;
+	cursor:pointer;
+	border:0px;
+}
+
+.statBox {
+	position:absolute;
+	margin-left:140px;
+
+	width:25px; 
+	height:25px; 
+	border:1px solid #000; 	
+}
+
+#LastYearBox {
+	background:#5da5da;
+}
+
+#ThisYearBox {
+	background:#faa43a;
+}
+
+#statOneLastYear {
+	margin-top:4px;
+}
+
+#statOneThisYear {
+	margin-top:4px;
+}
+
+#statOneContainer {
+	margin-top:5px;
+	display:none;
+}
+
+#statTwoContainer {
+	margin-top:5px;
+	display:none;
+}
+
+.statLoader {
+	width:30px;
+	height:30px;
+}
+
+.standHeadIcon {
+	width:14px;
+	height:14px;
+	cursor:pointer;
+	border:0px;
+}

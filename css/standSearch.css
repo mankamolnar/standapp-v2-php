@@ -1,0 +1,299 @@
+#searchCalendar {
+	
+	min-width:685px;
+	max-width:685px;
+	width:685px;
+	
+	border:1px solid #000;
+	background-color:#e6e6e6;
+	
+	margin: auto;
+	padding-bottom:5px;
+	
+	position:relative;
+	display: table;
+	
+}
+
+.daysCalendar {
+	
+	width:88px;
+	
+	margin-left:5px;
+	margin-top:5px;
+	
+	padding-left:2px;
+	padding-top:2px;
+	
+	border:1px dotted #000;
+	
+	text-align:center;
+	font-weight:bold;
+	
+	position:relative;
+	float:left;
+	display: table-row;
+}
+
+.dayCalendar {
+	
+	width:88px;
+	height:88px;
+	
+	margin-left:5px;
+	margin-top:5px;
+	
+	padding-left:2px;
+	padding-top:2px;
+	
+	border:1px dotted #000;
+	background-color:#FFCE00;
+	
+	text-align:left;
+	font-weight:bold;
+	
+	position:relative;
+	float:left;
+	display: table-row;
+}
+
+.dayCalendar:hover {
+	
+	background-color:#8370D8;
+	
+}
+
+.dayCalendarWeekend {
+	
+	width:88px;
+	height:88px;
+	
+	margin-left:5px;
+	margin-top:5px;
+	
+	padding-left:2px;
+	padding-top:2px;
+	
+	border:1px dotted #000;
+	background-color:#FFCE00;
+	
+	text-align:left;
+	font-weight:bold;
+	color:#FE3F44;
+	
+	position:relative;
+	float:left;
+	display: table-row;
+}
+
+.dayCalendarWeekend:hover {
+	
+	background-color:#8370D8;
+	
+}
+
+.emptyDay {
+	
+	width:90px;
+	height:90px;
+	
+	margin-left:5px;
+	margin-top:5px;
+	
+	padding-left:2px;
+	padding-top:2px;
+	
+	position:relative;
+	float:left;
+	
+}
+
+.upperLineStart {
+	
+	position:absolute;
+	
+	top:25px;
+	
+	border-top: 2px solid #A40004;
+	border-left: 2px solid #A40004;
+	
+	width:87px;
+	
+	color:#000;
+	background-color:#fe7276;
+	
+}
+
+.upperLine {
+	
+	position:absolute;
+	
+	top:25px;
+	border-top: 2px solid #A40004;
+	
+	width:89px;
+	height:20px;
+	
+	color:#000;
+	background-color:#fe7276;
+	
+}
+
+.downerLineStart {
+	
+	position:absolute;
+	
+	top:60px;
+	
+	border-top: 2px solid #078600;
+	border-left: 2px solid #078600;
+	
+	width:87px;
+	
+	color:#000;
+	background-color:#6ee768;
+	
+}
+
+.downerLine {
+	
+	position:absolute;
+	
+	top:60px;
+	border-top: 2px solid #078600;
+	
+	width:89px;
+	height:20px;
+	
+	color:#000;
+	background-color:#6ee768;
+	
+}
+
+.searchMenu {
+	
+	positon:absolute;
+	
+	padding:0px;
+	
+	width:208px;
+	height:58px;
+	
+	background:url('../img/searchMenuBg.png');
+}
+
+#eyeMenu {
+	
+	positon:relative;
+	
+	padding:0px;
+	
+	width:64px;
+	height:58px;
+	
+	background:url('../img/searchEyeOff.png');
+	background-position:center center;
+	background-repeat:no-repeat;
+	
+	float:left;
+	
+}
+
+#eyeMenu:hover {
+	
+	positon:relative;
+	
+	padding:0px;
+	
+	width:64px;
+	height:58px;
+	
+	background:url('../img/searchEyeOn.png');
+	background-position:center center;
+	background-repeat:no-repeat;
+	
+	float:left;
+}
+
+#penMenu {
+	
+	positon:relative;
+	
+	padding:0px;
+	
+	width:64px;
+	height:58px;
+	
+	background:url('../img/searchPenOff.png');
+	background-position:center center;
+	background-repeat:no-repeat;
+	
+	float:left;
+	
+}
+
+#penMenu:hover {
+	
+	positon:relative;
+	
+	padding:0px;
+	
+	width:64px;
+	height:58px;
+	
+	background:url('../img/searchPenOn.png');
+	background-position:center center;
+	background-repeat:no-repeat;
+	
+	float:left;
+	
+}
+
+#trashMenu {
+	
+	positon:relative;
+	
+	padding:0px;
+	
+	width:63px;
+	height:58px;
+	
+	background:url('../img/searchTrashOff.png');
+	background-position:center center;
+	background-repeat:no-repeat;
+	
+	float:left;
+	
+}
+
+#trashMenu:hover {
+	
+	positon:relative;
+	
+	padding:0px;
+	
+	width:63px;
+	height:58px;
+	
+	background:url('../img/searchTrashOn.png');
+	background-position:center center;
+	background-repeat:no-repeat;
+	
+	float:left;
+	
+}
+
+.separator {
+	positon:relative;
+	
+	padding:0px;
+	
+	width:3px;
+	height:58px;
+	
+	background:url('../img/searchMenuSep.png');
+	background-position:center center;
+	background-repeat:no-repeat;
+	
+	float:left;
+}
